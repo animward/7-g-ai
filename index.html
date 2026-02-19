@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>7G — Seventh Generation AI</title>
+	<meta name="description" content="Seventh Generation AI — Indigenous temporal thinking applied to artificial intelligence. What are we building toward 2175?">
+	<meta property="og:title" content="7G — Seventh Generation AI">
+	<meta property="og:description" content="Seventh Generation AI — Indigenous temporal thinking applied to artificial intelligence. What are we building toward 2175?">
+	<meta property="og:url" content="https://7-g.ai/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="canonical" href="https://7-g.ai/">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/override.css">
+	<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/proxima-nova-2">
+	<meta property="og:site_name" content="Ego AI | EGEX Network">
+	<meta name="keywords" content="Ego AI, EGEX, Ego Experiments, Alien Intelligence, EGEX AI, SOLACE, SOLACE platform, SOLACE software, SOLACE middleware, message routing, event-driven architecture, multi-agent middleware, consciousness research, multi-agent systems, strategic operations, EGEX Network, intelligent routing, real-time messaging">
+	<script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "WebSite",
+"name": "7G",
+"alternateName": ["Ego AI", "EGEX", "Ego Experiments Alien Intelligence"],
+"url": "https://7-g.ai/",
+"description": "Seventh Generation AI — Indigenous temporal thinking applied to artificial intelligence. What are we building toward 2175?",
+"inLanguage": "en",
+"publisher": {
+"@type": "Organization",
+"name": "EGEX AI Corp",
+"alternateName": ["Ego AI", "EGEX AI Corp", "Ego Experiments Alien Intelligence Corporation", "SOLACE"],
+"url": "https://egex.ai",
+"sameAs": [
+"https://www.linkedin.com/company/ego-experiments/",
+				"https://egoexperiments.com"
+]
+},
+"about": {
+"@type": "SoftwareApplication",
+"name": "SOLACE",
+"applicationCategory": "Middleware",
+"description": "Advanced software platform for multi-agent middleware, intelligent message routing between applications and autonomous agents, consciousness research, and event-driven architecture.",
+"operatingSystem": "Multi-cloud",
+"creator": {
+"@type": "Organization",
+"name": "Ego AI"
+}
+}
+}</script>
+</head>
+<body class="theme-egex-unified">
+
+<header class="egex-header">
+	<div class="header-status">
+		<div class="status-indicator"></div>
+		<span>7G ACTIVE</span>
+	</div>
+	<div class="header-brand">
+		<img src="images/PNG-CERBERUS-W.png" alt="7G" class="brand-glow">
+		<span class="brand-title">7G</span>
+	</div>
+	<p class="header-tagline">Seventh Generation AI</p>
+</header>
+
+<nav class="nav-tabs" id="mainNav">
+	<button class="nav-btn active" onclick="showTab('home')">Vision</button>
+<button class="nav-btn" onclick="showTab('services')">Principles</button>
+<button class="nav-btn" onclick="showTab('about')">Roadmap</button>
+<button class="nav-btn" onclick="showTab('contact')">Contact</button>
+</nav>
+
+<main class="container">
+	<section id="home" class="hero hero-banner fade-in" style="background-image: url('images/shutterstock_2546902447.webp')">
+	<div class="hero-overlay"></div>
+	<div class="hero-content">
+		<h1 class="hero-title">7G</h1>
+		<p class="hero-subtitle">What are we building toward? Not next quarter. Seven generations from now.</p>
+		
+	</div>
+</section>
+<section id="services" class="section services-section fade-in">
+	<div class="section-inner">
+		<h2>7G Principles</h2>
+		<div class="services-grid">
+			<div class="service-card"><h3>Temporal Sovereignty</h3><p>Decisions today must serve the seventh generation. Indigenous temporal thinking applied to technology roadmaps.</p></div>
+<div class="service-card"><h3>Regenerative Systems</h3><p>Systems that regenerate rather than extract. Technology modeled on living ecosystems, not industrial machines.</p></div>
+<div class="service-card"><h3>Knowledge Persistence</h3><p>Knowledge that persists across centuries. Memory systems designed for civilizational time scales.</p></div>
+<div class="service-card"><h3>Ethical Architecture</h3><p>Ethics embedded in architecture, not bolted on. If the structure is wrong, no amount of governance fixes it.</p></div>
+		</div>
+	</div>
+</section>
+<section id="about" class="section about-section fade-in">
+	<div class="section-inner">
+		<h2>The Roadmap to 2175</h2>
+		<div class="about-text"><p>Seven generations is approximately 150 years. The 7G framework asks: what would technology look like if we designed it for 2175 instead of next quarter?</p><p>This is not utopian thinking. It is the oldest planning framework on Turtle Island — the Seventh Generation Principle from Haudenosaunee (Iroquois) governance, applied to AI systems, data sovereignty, and computational infrastructure.</p></div>
+	</div>
+</section>
+<section id="contact" class="section contact-section fade-in">
+	<div class="section-inner">
+		<h2>Collaborate</h2>
+		<div class="contact-info">
+			<p>Long-term thinking. Long-term partnerships.</p>
+			<a href="mailto:agent@egex.ai" class="contact-link">agent@egex.ai</a>
+		</div>
+	</div>
+</section>
+</main>
+
+<footer class="site-footer">
+	<div class="footer-inner">
+		<p>&copy; 2026 7G — EGEX Advanced R&D</p>
+		<p class="footer-tagline">Seven generations. 150 years. Starting now.</p>
+		<div class="network-links"><a href="https://egex.ai">egex.ai</a> <a href="https://cascation.online">cascation.online</a> <a href="https://deepurpose.online">deepurpose.online</a> <a href="https://valaroma.online">valaroma.online</a> </div>
+	</div>
+</footer>
+
+<script>
+(function() {
+	var sections = [];
+	var buttons = document.querySelectorAll('.nav-btn');
+	var main = document.querySelector('main.container');
+	if (!main || !buttons.length) return;
+
+	// Collect all direct section children of main
+	Array.prototype.forEach.call(main.children, function(el) {
+		if (el.id) sections.push(el);
+	});
+
+	function showTab(id) {
+		// Hide all sections
+		sections.forEach(function(s) { s.style.display = 'none'; });
+		// Show target
+		var target = document.getElementById(id);
+		if (target) target.style.display = '';
+		// Update active button
+		buttons.forEach(function(b) { b.classList.remove('active'); });
+		// Find the clicked button
+		Array.prototype.forEach.call(buttons, function(b) {
+			if (b.getAttribute('data-tab') === id) b.classList.add('active');
+		});
+	}
+
+	// Wire up buttons
+	buttons.forEach(function(btn) {
+		var match = btn.getAttribute('onclick');
+		if (match) {
+			var tabId = match.replace(/.*showTab\(['"]/, '').replace(/['"]\).*/, '');
+			btn.setAttribute('data-tab', tabId);
+			btn.removeAttribute('onclick');
+			btn.addEventListener('click', function() { showTab(tabId); });
+		}
+	});
+
+	// Wire up anchor links that target tab sections
+	document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+		var id = a.getAttribute('href').substring(1);
+		var target = document.getElementById(id);
+		if (target && sections.indexOf(target) !== -1) {
+			a.addEventListener('click', function(e) {
+				e.preventDefault();
+				showTab(id);
+			});
+		}
+	});
+
+	// Activate first tab on load
+	if (buttons.length && buttons[0].getAttribute('data-tab')) {
+		showTab(buttons[0].getAttribute('data-tab'));
+		buttons[0].classList.add('active');
+	}
+
+	// Fade-in visible sections
+	var observer = new IntersectionObserver(function(entries) {
+		entries.forEach(function(e) {
+			if (e.isIntersecting) e.target.classList.add('visible');
+		});
+	}, { threshold: 0.1 });
+	document.querySelectorAll('.fade-in').forEach(function(el) { observer.observe(el); });
+})();
+</script>
+<script src="js/main.js" defer></script><script src="js/nerve.js" defer></script>
+</body>
+</html>
